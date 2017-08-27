@@ -1,6 +1,6 @@
 {
   "name": "hyper-localization",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Supports hyper-localization by merging multiple locales",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,17 @@
   "bugs": {
     "url": "https://github.com/bwinkers/hyper-localization/issues"
   },
-  "homepage": "https://github.com/bwinkers/hyper-localization#readme"
+  "homepage": "https://github.com/bwinkers/hyper-localization#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "coveralls": "^2.13.1",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
+    "sinon": "^3.2.1"
+  },
+  "dependencies": {
+    "activerules-locale-files": "^0.1.2",
+    "activerules-merge-files": "^1.0.3",
+    "bluebird": "^3.5.0"
+  }
 }
