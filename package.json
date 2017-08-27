@@ -1,10 +1,11 @@
 {
   "name": "hyper-localization",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Supports hyper-localization by merging multiple locales",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc --reporter=text mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
