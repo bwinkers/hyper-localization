@@ -24,3 +24,4 @@ This provides a valid i18next object.
 ```
 npm install hyper-localization
 ```
+Check back soon...
