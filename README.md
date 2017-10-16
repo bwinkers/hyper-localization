@@ -25,4 +25,4 @@ test
 ```
 npm install hyper-localization
 ```
-Check back soon...
+Checkout [ActiveRules Phalcon](https://github.com/bwinkers/docker-php7-phalcon)
